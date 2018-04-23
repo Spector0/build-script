@@ -1,5 +1,4 @@
 rm -rf hardware/qcom/display
-rm -rf hardware/qcom/display-caf
 rm -rf hardware/qcom/media
 rm -rf hardware/qcom/media-caf
 rm -rf hardware/qcom/wlan
