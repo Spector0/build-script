@@ -4,7 +4,9 @@ rm -rf hardware/qcom/media-caf
 rm -rf hardware/qcom/wlan
 rm -rf hardware/qcom/wlan-caf
 rm -rf hardware/qcom/power
-rm -rf hardware/qcom/camera
+rm -rf hardware/qcom/camera 
+rm -rf hardware/qcom/keymaster
+git clone https://github.com/Fabulous-Oreo/hardware_qcom_keymaster -b oreo-mr1 hardware/qcom/keymaster
 git clone https://github.com/Fabulous-Oreo/hardware_qcom_display -b oreo-mr1 hardware/qcom/display
 git clone https://github.com/Fabulous-Oreo/hardware_qcom_media -b oreo-mr1 hardware/qcom/media
 rm -rf hardware/qcom/media/msm8974
