@@ -17,6 +17,5 @@ git clone https://github.com/Fabulous-Oreo/vendor_oneplus -b oreo-mr1 vendor/one
 git clone https://github.com/Fabulous-Oreo/device_oppo_common -b oreo-mr1 device/oppo/common
 git clone https://github.com/Fabulous-Oreo/external_sony_boringssl-compat -b oreo-mr1 external/sony/boringssl-compat
 git clone https://github.com/Fabulous-Oreo/hardware_qcom_power -b oreo-mr1 hardware/qcom/power
-git clone https://github.com/Fabulous-Oreo/packages_apps_Snap-bacon -b oreo-mr1 packages/apps/Snap-bacon
 rm -rf device/oneplus/bacon/dataservices	
 rm -rf hardware/qcom/display-caf
