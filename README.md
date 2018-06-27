@@ -1,5 +1,5 @@
 #BUILD-SCRIPT:
-Script for removing and cloning required hals and trees. 
+Script for removing and cloning required hals and trees for Bacon Oreo. 
 
 #USAGE:
 Clone the repo to your desired location and execute.
