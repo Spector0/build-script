@@ -1,21 +1,5 @@
-rm -rf hardware/qcom/display
-rm -rf hardware/qcom/media
-rm -rf hardware/qcom/media-caf
-rm -rf hardware/qcom/wlan
-rm -rf hardware/qcom/wlan-caf
-rm -rf hardware/qcom/power
-rm -rf hardware/qcom/camera
-git clone https://github.com/Fabulous-Oreo/hardware_qcom_display -b oreo-mr1 hardware/qcom/display
-git clone https://github.com/Fabulous-Oreo/hardware_qcom_media -b oreo-mr1 hardware/qcom/media
-rm -rf hardware/qcom/media/msm8974
-git clone https://github.com/Fabulous-Oreo/hardware_qcom_media-caf -b oreo-mr1 hardware/qcom/media/msm8974
-git clone https://github.com/Fabulous-Oreo/hardware_qcom_wlan -b oreo-mr1 hardware/qcom/wlan
-git clone https://github.com/Fabulous-Oreo/hardware_qcom_camera -b oreo-mr1 hardware/qcom/camera
-git clone https://github.com/Spector0/device_oneplus_bacon -b dot-o device/oneplus/bacon
-git clone https://github.com/Fabulous-Oreo/kernel_oneplus_msm8974 -b oreo-mr1 kernel/oneplus/msm8974
-git clone https://github.com/Fabulous-Oreo/vendor_oneplus -b oreo-mr1 vendor/oneplus
-git clone https://github.com/Fabulous-Oreo/device_oppo_common -b oreo-mr1 device/oppo/common
-git clone https://github.com/Fabulous-Oreo/external_sony_boringssl-compat -b oreo-mr1 external/sony/boringssl-compat
-git clone https://github.com/Fabulous-Oreo/hardware_qcom_power -b oreo-mr1 hardware/qcom/power
-rm -rf device/oneplus/bacon/dataservices	
-rm -rf hardware/qcom/display-caf
+git clone https://github.com/Spector0/device_zuk_z2_plus -b pie device/zuk/z2_plus
+git clone https://github.com/Spector0/kernel_zuk_msm8996 -b pie kernel/zuk/msm8996
+git clone https://github.com/Spector0/vendor_zuk -b pie vendor/zuk
+git clone https://github.com/Spector0/device_zuk_msm8996-common -b device/zuk/msm8996-common
+rm -rf device/zuk/msm8996-common/pocketmode
